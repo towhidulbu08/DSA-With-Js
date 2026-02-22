@@ -1,31 +1,22 @@
-// Value Swaping , three methods:
+// division and modulus and quotient and remainder:
 
-//01:Using Extra Variable:
+// let x = 7;
+// let y = 2;
+// console.log(x / y);
+// console.log(x % y);
 
-let a = 10;
-let b = 20;
-let c;
-// c = a; // c=10, a=10
-// a = b; //a=20,b=20
-// b = c; //b=10
+// let a1 = 865689;
+// console.log(a1 / 10);
+// console.log(a1 % 10);
 
-// console.log("a", a);
-// console.log("b", b);
+//?How to remove the last digit of a number?
 
-//02:
+let a2 = 865689;
+console.log(Math.floor(a2 / 10));
+// console.log(Math.floor(a2 / 100));
 
-// a = a + b; //a=30
-// b = a - b; //b=10
-// a = a - b; //a=10
+//?How to remove the last two digits of a number?
 
-//03:destructuring assignment:
-
-[a, b] = [b, a];
-
-// console.log("a", a);
-// console.log("b", b);
-
-let x = 7;
-let y = 2;
-console.log(x / y);
-console.log(x % y);
+let a3 = 865689;
+console.log(Math.floor(a3 / 100));
+console.log(Math.floor(a3 / 100));
